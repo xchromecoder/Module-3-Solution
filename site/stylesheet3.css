@@ -1,6 +1,86 @@
 body {
 	font-size: 16px;
 	color: #fff;
-	background-color: #61122f;
+	background-color: #dadae3;
 	font-family: Helvetica, serif;
 }
+
+/* Header */
+#header-nav {
+	background-color: #a69eb0;
+	border-radius: 0;
+	border: 0;
+}
+
+/* Food LLC */
+.navbar-brand h1 {
+	padding-top: 0;
+	padding-bottom: 75px;
+	font-family: Helvetica, serif;
+	color: black;
+	font-size: ;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #dadae3;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #00000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* Our Menu */
+.text-center {
+	color: #000000;
+}
+
+.chicken-content {
+	border: 1px solid black;
+	padding: 15px;
+	background-color: #efeff2;
+	height: 1000px;
+	margin-left: 0;
+}
+
+
+
+
+
+

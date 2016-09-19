@@ -5,20 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Boostrap Starter Page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Food, LLC</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet3.css">
   </head>
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
+      <div class="navbar-header">
+    
+       <div class="navbar-brand">
+            <a href="index_module3.html"><h1>Food, LLC</h1></a>
+       </div>
+
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+</div>
+
+<div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                 <a href="#" class="hidden-lg hidden-md hidden-sm">
+                <span class="#"></span><br class="hidden-xs">Chicken</a>
+            </li>
+            <li>
+              <a href="#" class="hidden-lg hidden-md hidden-sm">
+                <span class="#"></span><br class="hidden-xs">Beef</a>
+            </li>
+            <li>
+              <a href="#" class="hidden-lg hidden-md hidden-sm">
+                <span class="#"></span><br class="hidden-xs">Sushi</a>
+            </li>
+            <li id="phone" class="hidden-lg hidden-md hidden-xs">
+              <a href="tel:410-602-5008" class="hidden-lg hidden-md hidden-xs">
+                <span></span></a><div></div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+</div>
+</nav>
+      
   </header>
-  testing
+  
+  <div class="container">
+  <h2 class="text-center">Our Menu</h2>
+  </div>
+
+  <div class="container">
+    <div class="col-lg-12 col-md-12 col-xs-12" class="pull-left">
+    <section class="chicken-content">
+    <h3 class="text-center">Chicken</h3>
+    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu sodales nisi. Sed sollicitudin at risus in tempor. Quisque et nulla ultrices, fermentum velit id, vulputate risus. Sed sagittis magna quam, in efficitur ipsum scelerisque at. Mauris consectetur velit eget aliquam tempus. Nunc eu massa nec magna imperdiet fringilla at nec turpis. Ut consectetur varius ligula hendrerit gravida.
+
+Vestibulum eros velit, varius sit amet pulvinar a, condimentum vel erat. Cras sit amet cursus odio. Nunc sollicitudin tempor velit in auctor. Sed fermentum varius sem, eget accumsan magna commodo eu. Nunc sed lacus id orci hendrerit rhoncus. In hac habitasse platea dictumst. Sed id massa at neque mollis ultricies vel ut ante. In et augue convallis, tempor ipsum ac, porta odio. Phasellus eu vehicula nulla, vel accumsan metus. Donec id nisi nibh.
+
+Fusce iaculis cursus sem. Integer volutpat purus ac ligula viverra, eget dapibus augue euismod. Mauris lectus quam, posuere non neque quis, gravida vehicula augue. Vestibulum viverra sapien mauris, at dignissim magna euismod non. Vivamus nibh libero, maximus quis pharetra ut, porta in sapien. Curabitur rutrum vitae dolor sed vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer at efficitur odio. Cras mollis lacus risus, id sollicitudin felis cursus blandit. Nunc tempor augue risus. Maecenas sed enim id dui efficitur fringilla consequat sit amet dui.</p>
+    </section>
+    </div>
+  </div>
+
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="jquery-1.11.3.min.js"></script>
+  <script src="bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
